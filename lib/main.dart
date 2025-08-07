@@ -1,20 +1,8 @@
-import 'package:flutter/material.dart';
+// File: lib/main.dart
+
+import 'package:oop_classes/shiel.dart'; // Import the Shiel class
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  Shiel myShiel = Shiel('Husay', 100);
+  myShiel.describe();
 }
