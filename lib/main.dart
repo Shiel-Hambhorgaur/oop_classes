@@ -1,20 +1,10 @@
-import 'package:flutter/material.dart';
+// lib/main.dart
+import 'arts_2025.dart';
 
 void main() {
-  runApp(const MainApp());
-}
+  Name myName= Name("Arthur", "Tambis");
+  print("Name: ${myName.getFullname()}");
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  DateTime today = DateTime.now();
+  print("Date: ${today.toLocal()}");
 }
