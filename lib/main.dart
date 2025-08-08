@@ -1,7 +1,15 @@
+import 'arts_2025.dart';
 import 'Yonez.dart';
 import 'package:oop_classes/shiel.dart'; // Import the Shiel class
 
 void main() {
+  // Code from feature/arts-2025
+  Name myName = Name("Arthur", "Tambis");
+  print("Name: ${myName.getFullname()}");
+
+  DateTime today = DateTime.now();
+  print("Date: ${today.toLocal()}");
+
   // Code from feature/Yonexjaira
   var person = Person(
     name: 'Yonexjaira',
