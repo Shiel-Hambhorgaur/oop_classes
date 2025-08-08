@@ -1,20 +1,15 @@
-import 'package:flutter/material.dart';
+// lib/main.dart
+import 'Yonez.dart';
 
 void main() {
-  runApp(const MainApp());
-}
+  
+  var person = Person(
+    name: 'Yonexjaira',
+    age: 19,
+    occupation: 'Tambay',
+  );
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  person.describe();
+  print('Life stage: ${person.getLifeStage()}');
+  person.celebrateBirthday();
 }
