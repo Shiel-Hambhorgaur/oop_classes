@@ -12,9 +12,7 @@ void main() {
   print("Date: ${today.toLocal()}");
 
   var person = Person(name: 'Yonexjaira', age: 19, occupation: 'Tambay');
-
   person.describe();
-  print('Life stage: ${person.getLifeStage()}');
 
   Shiel myShiel = Shiel(' Shiel Husay', 100);
   myShiel.describe();
