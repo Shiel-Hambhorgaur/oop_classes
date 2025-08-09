@@ -20,9 +20,4 @@ class Person {
     if (age < 65) return 'Adult';
     return 'Senior';
   }
-
-  void celebrateBirthday() {
-    age++;
-    print('Happy Birthday, $name! You are now $age years old.');
-  }
 }

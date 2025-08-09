@@ -1,5 +1,5 @@
 import 'arts_2025.dart';
-import 'Yonez.dart';
+import 'person.dart';
 import 'package:oop_classes/shiel.dart'; // Import the Shiel class
 
 void main() {
@@ -19,7 +19,7 @@ void main() {
 
   person.describe();
   print('Life stage: ${person.getLifeStage()}');
-  person.celebrateBirthday();
+
 
   // Code from main branch
   Shiel myShiel = Shiel('Husay', 100);
