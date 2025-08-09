@@ -10,10 +10,4 @@ class Person {
     print('$name is $age years old and works as a $occupation.');
   }
 
-  String getLifeStage() {
-    if (age < 13) return 'Child';
-    if (age < 20) return 'Teenager';
-    if (age < 65) return 'Adult';
-    return 'Senior';
-  }
 }
