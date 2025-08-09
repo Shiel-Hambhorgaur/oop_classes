@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import 'Name.dart';
 import 'person.dart';
 import 'shiel.dart'; // Import the Shiel class
+=======
+import 'arts_2025.dart';
+import 'person.dart';
+import 'package:oop_classes/shiel.dart'; // Import the Shiel class
+>>>>>>> 424ca8097cca5e23d89d172d82236399a8eea1ad
 
 void main() {
   // Code from feature/arts-2025
@@ -15,7 +21,7 @@ void main() {
 
   person.describe();
   print('Life stage: ${person.getLifeStage()}');
-  person.celebrateBirthday();
+
 
   // Code from main branch
   Shiel myShiel = Shiel(' Shiel Husay', 100);
