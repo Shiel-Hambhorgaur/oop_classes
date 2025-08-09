@@ -1,5 +1,5 @@
-import 'arts_2025.dart';
-import 'Yonez.dart';
+import 'Name.dart';
+import 'person.dart';
 import 'shiel.dart'; // Import the Shiel class
 
 void main() {
