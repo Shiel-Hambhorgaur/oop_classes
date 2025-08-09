@@ -1,6 +1,8 @@
-import 'Name.dart';
+// File: lib/main.dart
 import 'person.dart';
+import 'Name.dart';
 import 'shiel.dart';
+// Import the Shiel class
 
 void main() {
   Name myName = Name("Arthur", "Tambis");
