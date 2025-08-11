@@ -1,4 +1,4 @@
-import 'arts_2025.dart';
+import 'name.dart';
 
 void main() {
   // Code from feature/arts-2025
